@@ -6,6 +6,7 @@ function myFunc()
 				resolve("Hello, world!");
 			},1000);
 		})
+		 return promise;
 	}
 
 let promise = myFunc();
